@@ -1,0 +1,167 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1a1a1d;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    color: #f0f0f0 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd166 !important;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to right, #ff6f61, #ffb347);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 5px solid #ffd166;
+    transition: all 0.3s ease-in-out;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+/* Section Styling */
+section {
+    margin: 60px auto;
+    padding: 50px;
+    width: 80%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    text-align: center;
+    color: #ff6f61;
+    font-size: 2.3rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Skills List */
+.list-group-item {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: #ffd166;
+    color: #333;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #06d6a0;
+    color: white;
+    cursor: pointer;
+}
+
+/* Projects Section */
+.card {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #06d6a0;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+#contact a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1rem;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    section {
+        width: 90%;
+        padding: 40px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+}
